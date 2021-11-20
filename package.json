@@ -1,0 +1,24 @@
+{
+  "name": "firebase-notifications",
+  "version": "1.0.0",
+  "description": "Pushing the notifications to the application on update of an entity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ritish-Madan/Firebase-Notifications-Node.git"
+  },
+  "author": "Ritish Madan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ritish-Madan/Firebase-Notifications-Node/issues"
+  },
+  "homepage": "https://github.com/Ritish-Madan/Firebase-Notifications-Node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^10.0.0"
+  }
+}
