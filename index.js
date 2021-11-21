@@ -6,16 +6,6 @@ const env = require("./config/enviroment");
 const db = require("./config/firebase");
 const app = express();
 
-
-
-async function getData(){
-    let allData = await db.collection('Users').get();
-    allData.forEach((doc) => {
-        console.log(doc.id, '=>', doc.data());
-    })
-}
-
-getData();
 // The intent of using default cors config is to access the backend with android application only
 app.use(
     cors()
